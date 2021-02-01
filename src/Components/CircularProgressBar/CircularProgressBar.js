@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
@@ -28,7 +28,7 @@ function CircularProgressBar({ props, sqSize, strokeWidth, percentage }) {
   const dashArray = radius * Math.PI * 2;
   const dashOffset = dashArray - (dashArray * counter) / 100;
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const timer = setTimeout(() => {
       if (counter < percentage) {
         setCounter(counter + 1);
@@ -37,7 +37,7 @@ function CircularProgressBar({ props, sqSize, strokeWidth, percentage }) {
     return () => clearTimeout(timer);
   }, [counter]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (counter === percentage) {
       setCounter(percentage);
     }

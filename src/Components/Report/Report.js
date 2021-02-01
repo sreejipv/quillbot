@@ -44,39 +44,43 @@ function Report(props) {
           justifyContent="space-between"
           style={{padding:'64px 0 104px'}}
         >
-          <Box fontSize="30px" color="#0e101a" fontWeight="700">Premium Customers Report Better Results</Box>
+          <Box fontSize="30px" color="#0e101a" fontWeight="700" textAlign={{xs: 'center', sm:'left'}}>Premium Customers Report Better Results</Box>
           <Box mt={3}></Box>
-          <Box fontSize="18px" color="#0e101a" fontWeight="400">We routinely survey Grammarly users and have found that:</Box>
+          <Box fontSize="18px" color="#0e101a" fontWeight="400" textAlign={{xs: 'center', sm:'left'}}>We routinely survey Grammarly users and have found that:</Box>
           <Box mt={5} pt={2}></Box>
-          <Box display="flex" width="100%" justifyContent="space-between">
-            <Box width="320px">
+          <Box display="flex" width="100%" alignItems="center" justifyContent="space-between" flexDirection={{xs: 'column', sm:'row'}}>
+            
+            <Box width="320px" display={{xs: 'flex', sm: 'block'}} flexDirection="column" justifyContent="center" alignItems="center" >
               <CircularProgressBar
                 strokeWidth="4"
                 sqSize="142"
                 percentage={75}
               />
               <Box pt={3} mt={2}></Box>
-              <Box lineHeight="28px">76% of Grammarly users find writing more enjoyable.</Box>
+              <Box lineHeight="28px" textAlign={{xs: 'center', sm: 'left'}}>76% of Grammarly users find writing more enjoyable.</Box>
             </Box>
+            <Box height="30px" display={{xs: 'block', sm: 'none'}}></Box>
 
-            <Box width="320px">
+            <Box width="320px" display={{xs: 'flex', sm: 'block'}} flexDirection="column" justifyContent="center" alignItems="center" >
               <CircularProgressBar
                 strokeWidth="4"
                 sqSize="142"
                 percentage={75}
               />
               <Box pt={3} mt={2}></Box>
-              <Box lineHeight="28px">85% of Grammarly users are now stronger writers.</Box>
+              <Box lineHeight="28px"  textAlign={{xs: 'center', sm: 'left'}}>85% of Grammarly users are now stronger writers.</Box>
             </Box>
+            
+            <Box height="30px" display={{xs: 'block', sm: 'none'}}></Box>
 
-            <Box width="320px">
+            <Box width="320px" display={{xs: 'flex', sm: 'block'}} flexDirection="column" justifyContent="center" alignItems="center" >
               <CircularProgressBar
                 strokeWidth="4"
                 sqSize="142"
                 percentage={75}
               />
               <Box pt={3} mt={2}></Box>
-              <Box lineHeight="28px">
+              <Box lineHeight="28px" textAlign={{xs: 'center', sm: 'left'}}>
                 70% of Grammarly users reported an increased level of writing
                 confidence.
               </Box>

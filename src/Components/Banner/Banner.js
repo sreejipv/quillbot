@@ -5,6 +5,8 @@ import BgHome from "../../assets/images/swoosh.png";
 import TabLabel from "./TabLabel";
 import ThemeButton from "../ThemeButton";
 import TabContent from "./TabContent";
+import MobileBanner from '../MobileBanner';
+
 import { ReactComponent as BannerOne } from "../../assets/images/banner1.svg";
 import { ReactComponent as BannerTwo } from "../../assets/images/banner2.svg";
 import { ReactComponent as BannerThree } from "../../assets/images/banner3.svg";
@@ -86,7 +88,11 @@ function Banner(props) {
           />
         </Box>
 
-        <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
+        <Box display={{ xs: 'block', sm: 'none' }} >
+        <MobileBanner/> 
+        </Box>
+        
+        <Box display={{ xs: 'none', sm: 'flex' }}  flexDirection="column" justifyContent="center" height="100%">
           <Box display="flex" justifyContent="space-between">
             <Box className={classes.bannerContainer}>
               <TabContent

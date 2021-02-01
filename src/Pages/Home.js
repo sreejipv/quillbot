@@ -17,17 +17,13 @@ function Home(props) {
 
         <>
             <Header />
-            <Box display={{ xs: 'none', sm: 'block' }}>
                 <Banner/>               
                 <Plans/>
                 <VideoBanner/>
                 <Report/>
                 <BottomCta/>
-            </Box>
-            <Box display={{ xs: 'block', sm: 'none' }}>
-                <MobileBanner/>
+                {/* <MobileBanner/> */}
 
-            </Box>
 
                 
 

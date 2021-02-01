@@ -25,7 +25,7 @@ function VideoBanner(props) {
     return (
         <>
         <Box className={classes.bannerBg} >
-                <Box display="flex" alignItems="center" maxWidth={1080} width="100%" justifyContent="space-between">
+                <Box display="flex" flexDirection={{xs: 'column',sm:'row'}} alignItems="center" maxWidth={1080} width="100%" justifyContent="space-between">
                     <Box maxWidth="410px">
                         <Typography>
                             <Box fontSize="30px" fontWeight="700" color="#ffffff">Get the Job Done</Box>
@@ -33,8 +33,8 @@ function VideoBanner(props) {
                             <Box fontSize="18px" fontWeight="400"  lineHeight="32px" color="#ffffff">Effective communication is the key to making things happen.</Box>
                         </Typography>
                     </Box>
-                    <Box>
-                        <img style={{borderRadius: '10px',height: '100%'}} src={VideoBannerImage} />
+                    <Box maxWidth={{xs: '300px', sm: '100%'}}>
+                        <img style={{borderRadius: '10px',height: '100%', width: '100%'}} src={VideoBannerImage} />
                     </Box>
                 </Box>
                     

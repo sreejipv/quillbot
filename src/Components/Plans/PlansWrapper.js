@@ -23,7 +23,7 @@ function Plans(props) {
   let classes = useStyles(props);
   return (
     <>
-      <Box display="flex" justifyContent="space-between">
+      <Box display="flex" flexDirection={{ xs: 'column', sm:'row' }} justifyContent="space-between">
         <Box className={classes.planSection}>
           <Box
             style={{ height: "170px" }}
@@ -31,15 +31,15 @@ function Plans(props) {
             flexDirection="column"
           >
             <Typography>
-              <Box fontSize="11px" fontWeight="400" color="#6d758d">
+              <Box fontSize="11px" fontWeight="400" color="#6d758d" textAlign={{xs: 'center',sm:'left'}}>
                 FOR CASUAL WRITING
               </Box>
               <Box pt={1}></Box>
-              <Box fontSize="22px" fontWeight="700" color="#0e101a">
+              <Box fontSize="22px" fontWeight="700" color="#0e101a" textAlign={{xs: 'center',sm:'left'}}>
                 FREE
               </Box>
               <Box pt={1}></Box>
-              <Box fontSize="15px" fontWeight="400" color="#0e101a">
+              <Box fontSize="15px" fontWeight="400" color="#0e101a" textAlign={{xs: 'center',sm:'left'}}>
                 Basic writing suggestions.
               </Box>
             </Typography>
@@ -49,24 +49,9 @@ function Plans(props) {
           <Box pt={3}></Box>
 
           <FreeList/>
-
-          {/* <Tooltip
-            PopperProps={{
-              disablePortal: true,
-            }}
-            open={open}
-            disableFocusListener
-            disableHoverListener
-            disableTouchListener
-            title="Hover to learn more"
-            arrow
-            placement="right"
-          >
-            <Box m={2} style={{ width: "10px" }}></Box>
-          </Tooltip> */}
-
-
+      
         </Box>
+        <Box  borderTop={1} borderColor="#cccccc" m={4} display={{xs: 'block', sm:'none'}}></Box>
 
         <Box className={classes.planSection}>
           <Box
@@ -75,13 +60,13 @@ function Plans(props) {
             flexDirection="column"
           >
             <Typography>
-              <Box fontSize="11px" fontWeight="400" color="#6d758d">
+              <Box fontSize="11px" fontWeight="400" color="#6d758d" textAlign={{xs: 'center', sm:'left'}}>
                 FOR WORK OR SCHOOL
               </Box>
-              <Box fontSize="22px" fontWeight="700" color="#0e101a">
+              <Box fontSize="22px" fontWeight="700" color="#0e101a" textAlign={{xs: 'center',sm:'left'}}>
                 Premium
               </Box>
-              <Box fontSize="15px" fontWeight="400" color="#0e101a">
+              <Box fontSize="15px" fontWeight="400" color="#0e101a" textAlign={{xs: 'center', sm:'left'}}>
                 Style, tone, and clarity improvements for writing at work and
                 school.
               </Box>

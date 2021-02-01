@@ -78,7 +78,7 @@ function ListItem({props, copy, modelImage, modelCopy, isModel, fw}) {
                     <Box className={`${classes.copy} ${!isModel && classes.moldelLess}`} fontSize={14} 
                     style={{cursor: isModel ? 'pointer': 'revert'}} fontWeight={fw}>{copy}
                     {isModel && 
-                    <Box className={classes.itemModelContainer}>
+                    <Box display={{ xs: 'none', sm:'block' }}  className={classes.itemModelContainer}>
                         <Box className={classes.bannerWrapper}>
                             {modelImage}    
                         </Box>
