@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quillbot/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/quillbot/static/js/main.8a9ea9c3.chunk.js",
-    "main.js.map": "/quillbot/static/js/main.8a9ea9c3.chunk.js.map",
+    "main.js": "/quillbot/static/js/main.cb4d3b41.chunk.js",
+    "main.js.map": "/quillbot/static/js/main.cb4d3b41.chunk.js.map",
     "runtime-main.js": "/quillbot/static/js/runtime-main.650f9757.js",
     "runtime-main.js.map": "/quillbot/static/js/runtime-main.650f9757.js.map",
     "static/js/2.df2b50e8.chunk.js": "/quillbot/static/js/2.df2b50e8.chunk.js",
@@ -24,6 +24,11 @@
     "static/media/mobileBanner2.0b0ec6b7.png": "/quillbot/static/media/mobileBanner2.0b0ec6b7.png",
     "static/media/mobileBanner3.4083d2b0.png": "/quillbot/static/media/mobileBanner3.4083d2b0.png",
     "static/media/mobileBanner4.26772ac9.png": "/quillbot/static/media/mobileBanner4.26772ac9.png",
+    "static/media/premiumFive.579eac86.svg": "/quillbot/static/media/premiumFive.579eac86.svg",
+    "static/media/premiumFour.6c37046f.svg": "/quillbot/static/media/premiumFour.6c37046f.svg",
+    "static/media/premiumOne.73e794f7.svg": "/quillbot/static/media/premiumOne.73e794f7.svg",
+    "static/media/premiumThree.8de313f6.svg": "/quillbot/static/media/premiumThree.8de313f6.svg",
+    "static/media/premiumTwo.fe0bf71d.svg": "/quillbot/static/media/premiumTwo.fe0bf71d.svg",
     "static/media/punctuation.afa63cba.svg": "/quillbot/static/media/punctuation.afa63cba.svg",
     "static/media/spelling.72e8fd6e.svg": "/quillbot/static/media/spelling.72e8fd6e.svg",
     "static/media/subbanner1.d2416f24.svg": "/quillbot/static/media/subbanner1.d2416f24.svg",
@@ -39,6 +44,6 @@
     "static/js/runtime-main.650f9757.js",
     "static/js/2.df2b50e8.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.8a9ea9c3.chunk.js"
+    "static/js/main.cb4d3b41.chunk.js"
   ]
 }
