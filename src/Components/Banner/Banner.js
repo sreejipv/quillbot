@@ -43,7 +43,7 @@ const useStyles = makeStyles({
     height: "calc(100vh - 80px)",
     justifyContent: "center",
     minHeight: "680px",
-    padding: "32px 0",
+    padding: "20px 0",
   },
 });
 

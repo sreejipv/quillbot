@@ -10,9 +10,9 @@ function Header(props) {
       alignItems="center"
       justifyContent="space-between"
       display="flex"
-      p={3}>
+      style={{padding: '24px'}}>
       <Logo />
-      <Box fontWeight="700" fontSize="14px" >Log in</Box>
+      <Box fontWeight="700" fontSize="14px" minWidth="70px" textAlign="center">Log in</Box>
     </Box>
   );
 }
