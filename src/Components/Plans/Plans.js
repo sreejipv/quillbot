@@ -16,11 +16,12 @@ function Plans(props) {
     return (
         <>  
             <Box className={classes.plansContainer}>
+                <Box height="48px" display={{xs: 'block', sm: 'none'}}></Box>
                 <Typography component="div" >
-                    <Box fontSize={30} textAlign="center" fontWeight="700">
+                    <Box fontSize={{xs:'24px', sm:'30px'}} mx={{xs:'20px', sm: '0px'}} textAlign="center" fontWeight="700">
                         Up-Level Your Communication
                     </Box> 
-                    <Box fontSize={18} textAlign="center" fontWeight="400" mt={2}>
+                    <Box fontSize={18} textAlign="center" fontWeight="400" mt={2}  mx={{xs:'20px', sm: '0px'}}>
                         Unlock Grammarly Premium’s advanced features and suggestions.
                     </Box>  
                     <Box mt={4} pt={3}></Box>

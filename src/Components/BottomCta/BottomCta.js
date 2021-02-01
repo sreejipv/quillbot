@@ -18,11 +18,11 @@ function BottomCta(props) {
     return (
         <Box className={classes.bannerBg}>
             <Box>
-                <Box fontSize="44px"  fontWeight="700" color="#0e101a" textAlign="center">
+                <Box fontSize={{xs:'30px', sm:'44px'}} mx={{xs:'30px', sm: '0px'}} fontWeight="700" color="#0e101a" textAlign="center">
                     Take Your Writing from Good to Great    
                 </Box>
                 <Box height="16px"></Box>
-                <Box fontSize="20px" color="#0e101a"  fontWeight="400" textAlign="center">
+                <Box fontSize="20px" color="#0e101a"  mx={{xs:'30px', sm: '0px'}} fontWeight="400" textAlign="center">
                     Unlock Grammarly Premium’s advanced features to up-level your communication.    
                 </Box>
                 <Box height="24px"></Box>

@@ -12,7 +12,7 @@ function Header(props) {
       display="flex"
       p={3}>
       <Logo />
-      <span>Hello, Sreejith</span>
+      <Box fontWeight="700" fontSize="14px" >Log in</Box>
     </Box>
   );
 }

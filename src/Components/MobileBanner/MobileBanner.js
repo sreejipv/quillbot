@@ -1,12 +1,10 @@
 import { Box } from "@material-ui/core";
 import React, { useState } from "react";
-
+import Slide from "./Slide";
 import BannerOne from "../../assets/images/mobileBanner1.png";
 import BannerTwo from "../../assets/images/mobileBanner2.png";
 import BannerThree from "../../assets/images/mobileBanner3.png";
 import BannerFour from "../../assets/images/mobileBanner4.png";
-import { ReactComponent as LeftArrow } from "../../assets/images/leftArrow.svg";
-import { ReactComponent as RightArrow } from "../../assets/images/rightArrow.svg";
 import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 
@@ -26,7 +24,7 @@ const useStyles = makeStyles({
     alignItems: "center",
     top: "40%",
     background: "#15c399",
-    color: '#ffffff',
+    color: "#ffffff",
     "&$arrowRight": {
       right: "10px",
     },
@@ -75,55 +73,33 @@ function MobileBanner(props) {
         </Box>
       </Box>
 
-      <Box
-        width="100vw"
-        height="400px"
+      <Slide
         display={activeTab === 0 ? "flex" : "none"}
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Box height="330px" display="flex" flexDirection="column" justifyContent="center"><img src={BannerOne} style={{ width: "100vw" }} /></Box>
-        <Box color="#0E101A" fontSize="21px" fontWeight="700">Clear, confident communication</Box>
-        <Box color="#0E101A" fontSize="16px" lineHeight="26px">Take the guesswork out of great writing.</Box>
-      </Box>
+    title="Comprehensive real-time feedback"
+                subTitle="Effective writing takes more than good grammar."
+        bannerImage={BannerOne}
+      />
 
-      <Box
-        width="100vw"
-        height="400px"
+      <Slide
         display={activeTab === 1 ? "flex" : "none"}
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Box height="330px" display="flex" flexDirection="column" justifyContent="center"><img src={BannerTwo} style={{ width: "95vw" }} /></Box>
-        <Box color="#0E101A" fontSize="21px" fontWeight="700">Clear, confident communication</Box>
-        <Box color="#0E101A" fontSize="16px" lineHeight="26px">Take the guesswork out of great writing.</Box>
-      </Box>
-      <Box
-        width="100vw"
-        height="400px"
+        title="Comprehensive real-time feedback"
+        subTitle="Effective writing takes more than good grammar."
+        bannerImage={BannerTwo}
+      />
+
+      <Slide
         display={activeTab === 2 ? "flex" : "none"}
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Box height="330px" display="flex" flexDirection="column" justifyContent="center"><img src={BannerThree} style={{ width: "95vw" }} /></Box>
-        <Box color="#0E101A" fontSize="21px" fontWeight="700">Clear, confident communication</Box>
-        <Box color="#0E101A" fontSize="16px" lineHeight="26px">Take the guesswork out of great writing.</Box>
-      </Box>
-      <Box
-        width="100vw"
-        height="400px"
+        title="Support you can rely on"
+        subTitle="Write with a second pair of eyes that never gets tired."
+        bannerImage={BannerThree}
+      />
+
+      <Slide
         display={activeTab === 3 ? "flex" : "none"}
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
-        <Box height="330px" display="flex" flexDirection="column" justifyContent="center" display="flex" flexDirection="column" justifyContent="center"><img src={BannerFour} style={{ width: "95vw" }} /></Box>
-        <Box color="#0E101A" fontSize="21px" fontWeight="700">Clear, confident communication</Box>
-        <Box color="#0E101A" fontSize="16px" lineHeight="26px">Take the guesswork out of great writing.</Box>
-      </Box>
+        title="Strike the right tone"
+        subTitle="Make the best impression, every time."
+        bannerImage={BannerFour}
+      />
     </Box>
   );
 }

@@ -44,7 +44,7 @@ function Report(props) {
           justifyContent="space-between"
           style={{padding:'64px 0 104px'}}
         >
-          <Box fontSize="30px" color="#0e101a" fontWeight="700" textAlign={{xs: 'center', sm:'left'}}>Premium Customers Report Better Results</Box>
+          <Box fontSize={{xs:'24px', sm:'30px'}} color="#0e101a" fontWeight="700" textAlign={{xs: 'center', sm:'left'}}>Premium Customers Report Better Results</Box>
           <Box mt={3}></Box>
           <Box fontSize="18px" color="#0e101a" fontWeight="400" textAlign={{xs: 'center', sm:'left'}}>We routinely survey Grammarly users and have found that:</Box>
           <Box mt={5} pt={2}></Box>
@@ -65,7 +65,7 @@ function Report(props) {
               <CircularProgressBar
                 strokeWidth="4"
                 sqSize="142"
-                percentage={75}
+                percentage={85}
               />
               <Box pt={3} mt={2}></Box>
               <Box lineHeight="28px"  textAlign={{xs: 'center', sm: 'left'}}>85% of Grammarly users are now stronger writers.</Box>
@@ -77,7 +77,7 @@ function Report(props) {
               <CircularProgressBar
                 strokeWidth="4"
                 sqSize="142"
-                percentage={75}
+                percentage={70}
               />
               <Box pt={3} mt={2}></Box>
               <Box lineHeight="28px" textAlign={{xs: 'center', sm: 'left'}}>

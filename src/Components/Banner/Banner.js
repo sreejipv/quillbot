@@ -72,10 +72,10 @@ function Banner(props) {
   }
 
   return (
-    <Box component="div" className={classes.root}>
+    <Box component="div" className={classes.root} >
       <Box maxWidth="1080px" display="flex" flexDirection="column">
         <Typography component="div">
-          <Box fontSize={44} textAlign="center" fontWeight="700">
+          <Box fontSize={{xs: '30px', sm: '44px'}} textAlign="center" fontWeight="700">
             Aim High With Brilliant Writing
           </Box>
         </Typography>

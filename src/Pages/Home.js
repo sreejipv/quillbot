@@ -17,16 +17,11 @@ function Home(props) {
 
         <>
             <Header />
-                <Banner/>               
-                <Plans/>
-                <VideoBanner/>
-                <Report/>
-                <BottomCta/>
-                {/* <MobileBanner/> */}
-
-
-                
-
+            <Banner/>               
+            <Plans/>
+            <VideoBanner/>
+            <Report/>
+            <BottomCta/>
             
         </>
     );
