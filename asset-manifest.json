@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/quillbot/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/quillbot/static/js/main.22d4d158.chunk.js",
-    "main.js.map": "/quillbot/static/js/main.22d4d158.chunk.js.map",
+    "main.js": "/quillbot/static/js/main.562f9423.chunk.js",
+    "main.js.map": "/quillbot/static/js/main.562f9423.chunk.js.map",
     "runtime-main.js": "/quillbot/static/js/runtime-main.650f9757.js",
     "runtime-main.js.map": "/quillbot/static/js/runtime-main.650f9757.js.map",
-    "static/js/2.a8b1f0f7.chunk.js": "/quillbot/static/js/2.a8b1f0f7.chunk.js",
-    "static/js/2.a8b1f0f7.chunk.js.map": "/quillbot/static/js/2.a8b1f0f7.chunk.js.map",
+    "static/js/2.df2b50e8.chunk.js": "/quillbot/static/js/2.df2b50e8.chunk.js",
+    "static/js/2.df2b50e8.chunk.js.map": "/quillbot/static/js/2.df2b50e8.chunk.js.map",
     "static/js/3.5996432d.chunk.js": "/quillbot/static/js/3.5996432d.chunk.js",
     "static/js/3.5996432d.chunk.js.map": "/quillbot/static/js/3.5996432d.chunk.js.map",
     "index.html": "/quillbot/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/quillbot/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.a8b1f0f7.chunk.js.LICENSE.txt": "/quillbot/static/js/2.a8b1f0f7.chunk.js.LICENSE.txt",
+    "static/js/2.df2b50e8.chunk.js.LICENSE.txt": "/quillbot/static/js/2.df2b50e8.chunk.js.LICENSE.txt",
     "static/media/banner1.655eccbf.svg": "/quillbot/static/media/banner1.655eccbf.svg",
     "static/media/banner2.3ae54aab.svg": "/quillbot/static/media/banner2.3ae54aab.svg",
     "static/media/banner3.02c55be9.svg": "/quillbot/static/media/banner3.02c55be9.svg",
@@ -20,13 +20,11 @@
     "static/media/conciseness.b8d696d6.svg": "/quillbot/static/media/conciseness.b8d696d6.svg",
     "static/media/grammarly_logo.d5a858dc.svg": "/quillbot/static/media/grammarly_logo.d5a858dc.svg",
     "static/media/grammer.13fc20a7.svg": "/quillbot/static/media/grammer.13fc20a7.svg",
-    "static/media/leftArrow.7c7402ed.svg": "/quillbot/static/media/leftArrow.7c7402ed.svg",
     "static/media/mobileBanner1.568104c0.png": "/quillbot/static/media/mobileBanner1.568104c0.png",
     "static/media/mobileBanner2.0b0ec6b7.png": "/quillbot/static/media/mobileBanner2.0b0ec6b7.png",
     "static/media/mobileBanner3.4083d2b0.png": "/quillbot/static/media/mobileBanner3.4083d2b0.png",
     "static/media/mobileBanner4.26772ac9.png": "/quillbot/static/media/mobileBanner4.26772ac9.png",
     "static/media/punctuation.afa63cba.svg": "/quillbot/static/media/punctuation.afa63cba.svg",
-    "static/media/rightArrow.cd78651a.svg": "/quillbot/static/media/rightArrow.cd78651a.svg",
     "static/media/spelling.72e8fd6e.svg": "/quillbot/static/media/spelling.72e8fd6e.svg",
     "static/media/subbanner1.d2416f24.svg": "/quillbot/static/media/subbanner1.d2416f24.svg",
     "static/media/subbanner2.c57ae55d.svg": "/quillbot/static/media/subbanner2.c57ae55d.svg",
@@ -39,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.650f9757.js",
-    "static/js/2.a8b1f0f7.chunk.js",
+    "static/js/2.df2b50e8.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.22d4d158.chunk.js"
+    "static/js/main.562f9423.chunk.js"
   ]
 }
